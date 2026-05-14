@@ -20,6 +20,96 @@ Para manter o projeto simples e educativo, utilizamos apenas:
 - Victor Hugo Silva de Souza
 - Victor Lopes
 ----------------
+1.Pergunta: Onde é Brusque?
+A) Japão 
+B) Argentina 
+C) Brasil 
+Correta: B) Brasil
+
+2.Pergunta: Tem rio em Brusque? 
+A) Sim
+B) Não
+Correta: A) Sim
+
+3.Pergunta: Qual o animal você vê na beira rio? 
+A) CAPIVARA 
+B) LEÃO  
+C) PINGUIM 
+Correta: A) CAPIVARA
+
+4.Pergunta: Brusque é uma…
+A) CIDADE
+B) COMIDA
+C) ANIMAL
+D) BRINQUEDO
+Correta: A) CIDADE
+
+5.Pergunta: Qual o animal da festa Fenarreco? 
+A) Elefante
+B) Urso
+C) Marreco 
+Correta: C) Marreco
+
+6.Pergunta: Em festas típicas as pessoas gostam de comer: 
+A) CUCA E BOLO 
+B) PEDRAS
+D) AREIA
+C) ARROZ
+Correta: A) Cuca e Bolo
+
+7.Pergunta: O que podemos aprender no
+Museu de Brusque? 
+A) Jogar Futebol 
+B) Nadar 
+C) História de Brusque
+Correta: C) História de Brusque
+
+8.Pergunta: Quais são as cores da bandeira de Brusque?
+A) Verde, Branco, Amarelo e Vermelho 
+B) Azul, roxo e preto
+C) Rosa, laranja e dourado
+Correta: A) Verde, Branco, Amarelo e Vermelho 
+
+9.Na Fenarreco, As Roupas usadas são:
+A) Alemãs
+B) Alienígenas
+C) Japonesas
+Correta: A) Alemãs
+
+10.PERGUNTA: Qual desses lugares tem em Brusque?
+A) ESCOLA
+B) CASTELO DE DRAGÃO
+C) PLANETA MARTE
+CORRETA: A) ESCOLA
+
+11.QUEM SOU EU DA CIDADE?
+*IMAGEM*
+Correta: CARROÇA
+
+12.A cultura de Brusque vem de:
+A) Animais
+B) Pessoas que moram lá 
+C) Máquinas
+Correta: B) Pessoas que moram lá 
+
+13.Qual dessas imagens é o Marreco?
+1) *IMAGEM* de um marreco e 2) *IMAGEM* de um gato
+Correta: 1) MARRECO
+
+14.Pergunta: No parque dá para…
+A) Brincar
+B) voar
+C) Estudar
+Correta: A) Brincar
+
+15.As festas culturais mostram:
+A) Danças e músicas
+C) Nada
+B) Apenas silêncio
+D) Só comida
+Correta: A) Danças e Músicas
+
+----------------
 
   **Estrutura do Repositório**
 - `index.html`: Arquivo principal com todas as telas do jogo.
