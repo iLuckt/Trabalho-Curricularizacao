@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.tela {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0f7fa;
+    position: relative;
+}
+
+.tela:target {
+    display: flex;
+}
+
+#inicio:not(:target) {
+    display: flex;
+}
+
+.tela:target ~ #inicio {
+    display: none;
+}
+
+.caixa,
+.caixa-pergunta,
+.caixa-feedback {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #8e44ad;
+}
+
+h2 {
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 2px solid #eee;
+    border-radius: 10px;
+}
+
+.botao-comecar,
+.botao-proximo {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #a2e4d1;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.opcoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.opcao {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.roxo {
+    background-color: #a55eea;
+}
+
+.verde {
+    background-color: #2bcbba;
+}
+
+.laranja {
+    background-color: #fa8231;
+}
+
+.caixa-pergunta img {
+    width: 250px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.texto-acerto {
+    color: #2ecc71;
+}
+
+.texto-erro {
+    color: #e74c3c;
+}
+
+.feedback {
+    background-color: rgba(255,255,255,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.imagem13 {
+    position: relative;
+    display: inline-block;
+}
+
+.numero1,
+.numero2 {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numero1 {
+    background-color: #a55eea;
+    left: -45px;
+    top: 25px;
+}
+
+.numero2 {
+    background-color: #2bcbba;
+    left: -45px;
+    bottom: 25px;
+}

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Brusque</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="inicio" class="tela">
+    <div class="caixa">
+        <h1>Quiz Divertido!</h1>
+        <p>Vamos brincar?</p>
+        <input type="text" placeholder="Seu nome">
+        <a href="#pergunta1" class="botao-comecar">Começar!</a>
+    </div>
+</div>
+
+<div id="pergunta1" class="tela">
+    <div class="caixa-pergunta">
+        <h2>ONDE É BRUSQUE?</h2>
+        <img src="1.png">
+        <div class="opcoes">
+            <a href="#erro1" class="opcao roxo">JAPÃO</a>
+            <a href="#erro1" class="opcao verde">ARGENTINA</a>
+            <a href="#acerto1" class="opcao laranja">BRASIL</a>
+        </div>
+    </div>
+</div>
+
+<div id="acerto1" class="tela feedback">
+    <div class="caixa-feedback">
+        <div class="opcao laranja">BRASIL</div>
+        <h2 class="texto-acerto">Muito bem!</h2>
+        <a href="#pergunta2" class="botao-proximo">PRÓXIMA</a>
+    </div>
+</div>
+
+<div id="erro1" class="tela feedback">
+    <div class="caixa-feedback">
+        <h2 class="texto-erro">Quase!</h2>
+        <p>VAMOS TENTAR NOVAMENTE?</p>
+        <a href="#pergunta1" class="botao-proximo">SIM!</a>
+    </div>
+</div>
+
+<div id="pergunta2" class="tela">
+    <div class="caixa-pergunta">
+        <h2>TEM RIO EM BRUSQUE?</h2>
+        <img src="2.png">
+        <div class="opcoes">
+            <a href="#acerto2" class="opcao roxo">SIM</a>
+            <a href="#erro2" class="opcao verde">NÃO</a>
+        </div>
+    </div>
+</div>
+
+<div id="acerto2" class="tela feedback">
+    <div class="caixa-feedback">
+        <div class="opcao roxo">SIM</div>
+        <h2 class="texto-acerto">Muito bem!</h2>
+        <a href="#pergunta3" class="botao-proximo">PRÓXIMA</a>
+    </div>
+</div>
+
+<div id="erro2" class="tela feedback">
+    <div class="caixa-feedback">
+        <h2 class="texto-erro">Quase!</h2>
+        <p>VAMOS TENTAR NOVAMENTE?</p>
+        <a href="#pergunta2" class="botao-proximo">SIM!</a>
+    </div>
+</div>
+
+<div id="pergunta3" class="tela">
+    <div class="caixa-pergunta">
+        <h2>QUAL ANIMAL VOCÊ VÊ NA BEIRA RIO?</h2>
+        <img src="3.png">
+        <div class="opcoes">
+            <a href="#acerto3" class="opcao roxo">CAPIVARA</a>
+            <a href="#erro3" class="opcao verde">LEÃO</a>
+            <a href="#erro3" class="opcao laranja">PINGUIM</a>
+        </div>
+    </div>
+</div>
+
+<div id="acerto3" class="tela feedback">
+    <div class="caixa-feedback">
+        <div class="opcao roxo">CAPIVARA</div>
+        <h2 class="texto-acerto">Muito bem!</h2>
+        <a href="#pergunta4" class="botao-proximo">PRÓXIMA</a>
+    </div>
+</div>
+
+<div id="erro3" class="tela feedback">
+    <div class="caixa-feedback">
+        <h2 class="texto-erro">Quase!</h2>
+        <p>VAMOS TENTAR NOVAMENTE?</p>
+        <a href="#pergunta3" class="botao-proximo">SIM!</a>
+    </div>
+</div>
+
+<div id="pergunta4" class="tela">
+    <div class="caixa-pergunta">
+        <h2>BRUSQUE É UMA...</h2>
+        <img src="4.png">
+        <div class="opcoes">
+            <a href="#acerto4" class="opcao roxo">CIDADE</a>
+            <a href="#erro4" class="opcao verde">COMIDA</a>
+            <a href="#erro4" class="opcao laranja">ANIMAL</a>
+        </div>
+    </div>
+</div>
+
+<div id="acerto4" class="tela feedback">
+    <div class="caixa-feedback">
+        <div class="opcao roxo">CIDADE</div>
+        <h2 class="texto-acerto">Muito bem!</h2>
+        <a href="#pergunta5" class="botao-proximo">PRÓXIMA</a>
+    </div>
+</div>
+
+<div id="erro4" class="tela feedback">
+    <div class="caixa-feedback">
+        <h2 class="texto-erro">Quase!</h2>
+        <p>VAMOS TENTAR NOVAMENTE?</p>
+        <a href="#pergunta4" class="botao-proximo">SIM!</a>
+    </div>
+</div>
+
+<div id="pergunta5" class="tela">
+    <div class="caixa-pergunta">
+        <h2>QUAL O ANIMAL DA FENARRECO?</h2>
+        <img src="5.png">
+        <div class="opcoes">
+            <a href="#erro5" class="opcao roxo">ELEFANTE</a>
+            <a href="#erro5" class="opcao verde">URSO</a>
+            <a href="#acerto5" class="opcao laranja">MARRECO</a>
+        </div>
+    </div>
+</div>
+
+<div id="acerto5" class="tela feedback">
+    <div class="caixa-feedback">
+        <div class="opcao laranja">MARRECO</div>
+        <h2 class="texto-acerto">Muito bem!</h2>
+        <a href="#pergunta6" class="botao-proximo">PRÓXIMA</a>
+    </div>
+</div>
+
+<div id="erro5" class="tela feedback">
+    <div class="caixa-feedback">
+        <h2 class="texto-erro">Quase!</h2>
+        <p>VAMOS TENTAR NOVAMENTE?</p>
+        <a href="#pergunta5" class="botao-proximo">SIM!</a>
+    </div>
+</div>
+
+<div id="pergunta6" class="tela">
+    <div class="caixa-pergunta">
+        <h2>O QUE AS PESSOAS GOSTAM DE COMER?</h2>
+        <img src="6.png">
+        <div class="opcoes">
+            <a href="#acerto6" class="opcao roxo">CUCA E BOLO</a>
+            <a href="#erro6" class="opcao verde">PEDRAS</a>
+            <a href="#erro6" class="opcao laranja">AREIA</a>
+        </div>
+    </div>
+</div>
+
+<div id="acerto6" class="tela feedback">
+    <div class="caixa-feedback">
+        <div class="opcao roxo">CUCA E BOLO</div>
+        <h2 class="texto-acerto">Muito bem!</h2>
+        <a href="#pergunta7" class="botao-proximo">PRÓXIMA</a>
+    </div>
+</div>
+
+<div id="erro6" class="tela feedback">
+    <div class="caixa-feedback">
+        <h2 class="texto-erro">Quase!</h2>
+        <p>VAMOS TENTAR NOVAMENTE?</p>
+        <a href="#pergunta6" class="botao-proximo">SIM!</a>
+    </div>
+</div>
+
+<div id="pergunta7" class="tela">
+    <div class="caixa-pergunta">
+        <h2>O QUE APRENDEMOS NO MUSEU?</h2>
+        <img src="7.png">
+        <div class="opcoes">
+            <a href="#erro7" class="opcao roxo">NADAR</a>
+            <a href="#acerto7" class="opcao verde">HISTÓRIA</a>
+            <a href="#erro7" class="opcao laranja">FUTEBOL</a>
+        </div>
+    </div>
+</div>
+
+<div id="acerto7" class="tela feedback">
+    <div class="caixa-feedback">
+        <div class="opcao verde">HISTÓRIA</div>
+        <h2 class="texto-acerto">Muito bem!</h2>
+        <a href="#pergunta8" class="botao-proximo">PRÓXIMA</a>
+    </div>
+</div>
+
+<div id="erro7" class="tela feedback">
+    <div class="caixa-feedback">
+        <h2 class="texto-erro">Quase!</h2>
+        <p>VAMOS TENTAR NOVAMENTE?</p>
+        <a href="#pergunta7" class="botao-proximo">SIM!</a>
+    </div>
+</div>
+
+<div id="pergunta8" class="tela">
+    <div class="caixa-pergunta">
+        <h2>CORES DA BANDEIRA DE BRUSQUE?</h2>
+        <img src="8.png">
+        <div class="opcoes">
+            <a href="#acerto8" class="opcao roxo">VERDE, BRANCO, AMARELO, VERMELHO</a>
+            <a href="#erro8" class="opcao verde">AZUL E PRETO</a>
+        </div>
+    </div>
+</div>
+
+<div id="acerto8" class="tela feedback">
+    <div class="caixa-feedback">
+        <div class="opcao roxo">VERDE, BRANCO, AMARELO, VERMELHO</div>
+        <h2 class="texto-acerto">Muito bem!</h2>
+        <a href="#pergunta9" class="botao-proximo">PRÓXIMA</a>
+    </div>
+</div>
+
+<div id="erro8" class="tela feedback">
+    <div class="caixa-feedback">
+        <h2 class="texto-erro">Quase!</h2>
+        <p>VAMOS TENTAR NOVAMENTE?</p>
+        <a href="#pergunta8" class="botao-proximo">SIM!</a>
+    </div>
+</div>
+
+<div id="pergunta9" class="tela">
+    <div class="caixa-pergunta">
+        <h2>ROUPAS DA FENARRECO SÃO:</h2>
+        <img src="9.png">
+        <div class="opcoes">
+            <a href="#acerto9" class="opcao roxo">ALEMÃS</a>
+            <a href="#erro9" class="opcao verde">JAPONESAS</a>
+        </div>
+    </div>
+</div>
+
+<div id="acerto9" class="tela feedback">
+    <div class="caixa-feedback">
+        <div class="opcao roxo">ALEMÃS</div>
+        <h2 class="texto-acerto">Muito bem!</h2>
+        <a href="#pergunta10" class="botao-proximo">PRÓXIMA</a>
+    </div>
+</div>
+
+<div id="erro9" class="tela feedback">
+    <div class="caixa-feedback">
+        <h2 class="texto-erro">Quase!</h2>
+        <p>VAMOS TENTAR NOVAMENTE?</p>
+        <a href="#pergunta9" class="botao-proximo">SIM!</a>
+    </div>
+</div>
+
+<div id="pergunta10" class="tela">
+    <div class="caixa-pergunta">
+        <h2>QUAL LUGAR TEM EM BRUSQUE?</h2>
+        <img src="10.png">
+        <div class="opcoes">
+            <a href="#acerto10" class="opcao roxo">ESCOLA</a>
+            <a href="#erro10" class="opcao verde">MARTE</a>
+            <a href="#erro10" class="opcao verde">CASTELO DE DRAGÃO</a>
+        </div>
+    </div>
+</div>
+
+<div id="acerto10" class="tela feedback">
+    <div class="caixa-feedback">
+        <div class="opcao roxo">ESCOLA</div>
+        <h2 class="texto-acerto">Muito bem!</h2>
+        <a href="#pergunta11" class="botao-proximo">PRÓXIMA</a>
+    </div>
+</div>
+
+<div id="erro10" class="tela feedback">
+    <div class="caixa-feedback">
+        <h2 class="texto-erro">Quase!</h2>
+        <p>VAMOS TENTAR NOVAMENTE?</p>
+        <a href="#pergunta10" class="botao-proximo">SIM!</a>
+    </div>
+</div>
+
+<div id="pergunta11" class="tela">
+    <div class="caixa-pergunta">
+        <h2>QUEM SOU EU? (SOU DE MADEIRA)</h2>
+        <img src="11.png">
+        <div class="opcoes">
+            <a href="#acerto11" class="opcao roxo">CARROÇA</a>
+            <a href="#erro11" class="opcao verde">AVIÃO</a>
+        </div>
+    </div>
+</div>
+
+<div id="acerto11" class="tela feedback">
+    <div class="caixa-feedback">
+        <div class="opcao roxo">CARROÇA</div>
+        <h2 class="texto-acerto">Muito bem!</h2>
+        <a href="#pergunta12" class="botao-proximo">PRÓXIMA</a>
+    </div>
+</div>
+
+<div id="erro11" class="tela feedback">
+    <div class="caixa-feedback">
+        <h2 class="texto-erro">Quase!</h2>
+        <p>VAMOS TENTAR NOVAMENTE?</p>
+        <a href="#pergunta11" class="botao-proximo">SIM!</a>
+    </div>
+</div>
+
+<div id="pergunta12" class="tela">
+    <div class="caixa-pergunta">
+        <h2>A CULTURA VEM DE:</h2>
+        <img src="12.png">
+        <div class="opcoes">
+            <a href="#erro12" class="opcao roxo">MÁQUINAS</a>
+            <a href="#acerto12" class="opcao verde">PESSOAS</a>
+        </div>
+    </div>
+</div>
+
+<div id="acerto12" class="tela feedback">
+    <div class="caixa-feedback">
+        <div class="opcao verde">PESSOAS</div>
+        <h2 class="texto-acerto">Muito bem!</h2>
+        <a href="#pergunta13" class="botao-proximo">PRÓXIMA</a>
+    </div>
+</div>
+
+<div id="erro12" class="tela feedback">
+    <div class="caixa-feedback">
+        <h2 class="texto-erro">Quase!</h2>
+        <p>VAMOS TENTAR NOVAMENTE?</p>
+        <a href="#pergunta12" class="botao-proximo">SIM!</a>
+    </div>
+</div>
+
+<div id="pergunta13" class="tela">
+    <div class="caixa-pergunta">
+        <h2>QUAL DESSAS IMAGENS É O MARRECO?</h2>
+
+        <div class="imagem13">
+            <div class="numero1">1</div>
+
+            <img src="13.png">
+
+            <div class="numero2">2</div>
+        </div>
+
+        <div class="opcoes">
+            <a href="#acerto13" class="opcao roxo">1</a>
+            <a href="#erro13" class="opcao verde">2</a>
+        </div>
+    </div>
+</div>
+
+<div id="acerto13" class="tela feedback">
+    <div class="caixa-feedback">
+        <div class="opcao roxo">MARRECO</div>
+        <h2 class="texto-acerto">Muito bem!</h2>
+        <a href="#pergunta14" class="botao-proximo">PRÓXIMA</a>
+    </div>
+</div>
+
+<div id="erro13" class="tela feedback">
+    <div class="caixa-feedback">
+        <h2 class="texto-erro">Quase!</h2>
+        <p>VAMOS TENTAR NOVAMENTE?</p>
+        <a href="#pergunta13" class="botao-proximo">SIM!</a>
+    </div>
+</div>
+
+<div id="pergunta14" class="tela">
+    <div class="caixa-pergunta">
+        <h2>NO PARQUE DÁ PARA...</h2>
+        <img src="14.png">
+        <div class="opcoes">
+            <a href="#acerto14" class="opcao roxo">BRINCAR</a>
+            <a href="#erro14" class="opcao verde">VOAR</a>
+        </div>
+    </div>
+</div>
+
+<div id="acerto14" class="tela feedback">
+    <div class="caixa-feedback">
+        <div class="opcao roxo">BRINCAR</div>
+        <h2 class="texto-acerto">Muito bem!</h2>
+        <a href="#pergunta15" class="botao-proximo">PRÓXIMA</a>
+    </div>
+</div>
+
+<div id="erro14" class="tela feedback">
+    <div class="caixa-feedback">
+        <h2 class="texto-erro">Quase!</h2>
+        <p>VAMOS TENTAR NOVAMENTE?</p>
+        <a href="#pergunta14" class="botao-proximo">SIM!</a>
+    </div>
+</div>
+
+<div id="pergunta15" class="tela">
+    <div class="caixa-pergunta">
+        <h2>FESTAS CULTURAIS MOSTRAM:</h2>
+        <img src="15.png">
+        <div class="opcoes">
+            <a href="#acerto15" class="opcao roxo">DANÇAS E MÚSICAS</a>
+            <a href="#erro15" class="opcao verde">SILÊNCIO</a>
+        </div>
+    </div>
+</div>
+
+<div id="acerto15" class="tela feedback">
+    <div class="caixa-feedback">
+        <div class="opcao roxo">DANÇAS E MÚSICAS</div>
+        <h2 class="texto-acerto">Muito bem!</h2>
+        <a href="#final" class="botao-proximo">RESULTADO</a>
+    </div>
+</div>
+
+<div id="erro15" class="tela feedback">
+    <div class="caixa-feedback">
+        <h2 class="texto-erro">Quase!</h2>
+        <p>VAMOS TENTAR NOVAMENTE?</p>
+        <a href="#pergunta15" class="botao-proximo">SIM!</a>
+    </div>
+</div>
+
+<div id="final" class="tela">
+    <div class="caixa">
+        <h1>Parabéns!</h1>
+        <p>Você terminou o Quiz!</p>
+        <a href="#inicio" class="botao-comecar">Jogar de novo!</a>
+    </div>
+</div>
+
+</body>
+</html>
